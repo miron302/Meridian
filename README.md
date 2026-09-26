@@ -21,6 +21,11 @@ installing Chrome extensions.
 
 ---
 
+## Quick Start
+Download the latest version from releases.
+
+---
+
 ## Building
 
 Requires **Node.js 18+** and **npm**. Tested with Electron 35 on macOS 14+,
