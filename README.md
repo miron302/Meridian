@@ -14,9 +14,6 @@ installing Chrome extensions.
 - [Ad blocking](#ad-blocking)
 - [Extensions](#extensions)
 - [Keyboard shortcuts](#keyboard-shortcuts)
-- [Building a distributable app](#building-a-distributable-app)
-- [Manual test checklist](#manual-test-checklist)
-- [Project layout](#project-layout)
 - [License](#license)
 
 ---
