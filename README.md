@@ -1,15 +1,8 @@
 # Meridian
 
-A desktop browser built on Chromium (via Electron), with a Liquid Glass
+A desktop browser built on Chromium, with a Liquid Glass
 interface, a real network-level ad/tracker blocker, and support for
 installing Chrome extensions.
-
-
-This is a genuine, runnable Electron application — every tab is a real
-Chromium `BrowserView` with its own navigation history, the ad blocker
-filters real network requests via `session.webRequest` using actual
-EasyList/EasyPrivacy/uBlock filter lists, and extensions load through
-Electron's real `session.loadExtension` API. Nothing here is a mockup.
 
 ---
 
@@ -28,19 +21,19 @@ Electron's real `session.loadExtension` API. Nothing here is a mockup.
 
 ---
 
-## Quick start
+## Building
 
 Requires **Node.js 18+** and **npm**. Tested with Electron 35 on macOS 14+,
 and should run on Windows/Linux via the same codebase (see platform notes
 below).
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/miron302/Meridian
 cd meridian
 npm install
-npm run dev        # launches with DevTools-friendly flags
+npm run dev       
 # or
-npm start           # normal launch
+npm start           
 ```
 
 On first launch, Meridian creates its user-data directory (settings,
