@@ -4,7 +4,6 @@ A desktop browser built on Chromium (via Electron), with a Liquid Glass
 interface, a real network-level ad/tracker blocker, and support for
 installing Chrome extensions.
 
-![Meridian icon](assets/icon.png)
 
 This is a genuine, runnable Electron application — every tab is a real
 Chromium `BrowserView` with its own navigation history, the ad blocker
